@@ -20,7 +20,7 @@ import google.generativeai as genai
 # os.makedirs("/root/.streamlit", exist_ok=True)
 # shutil.copy("secrets.toml", "/root/.streamlit/secrets.toml")
 
-GOOGLE_API_KEY = st.secrets["GOOGLE_API_KEY"]
+GOOGLE_API_KEY = st.secrets["AIzaSyDTpM0vqenZx-FLQtNdUw34KB0XGOIW-Ag"]
 
 genai.configure(api_key=GOOGLE_API_KEY)
 
